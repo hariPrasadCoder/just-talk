@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Just Talk",
+    "slug": "just-talk",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#1a1a2e",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.justtalk.app"
+    },
+    "android": {
+      "package": "com.justtalk.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "4c5a4871-570b-4d44-8007-b3f470dea51b"
+      }
+    }
+  }
+}
